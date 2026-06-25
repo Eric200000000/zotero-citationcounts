@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Zotero Citation Counts",
+  "version": "0.8.0",
+  "description": "Adds a sortable Citation column to Zotero using open citation data from OpenAlex, Crossref, and Semantic Scholar. Paced, captcha-free, with an optional once-a-day background refresh. Works on Zotero 7, 8, and 9.",
+  "author": "Eric",
+  "homepage_url": "https://github.com/Eric200000000/zotero-citationcounts",
+  "icons": {
+    "32": "icons/citation.svg",
+    "48": "icons/citation.svg",
+    "96": "icons/citation.svg"
+  },
+  "applications": {
+    "zotero": {
+      "id": "citationcounts@zotero.eric",
+      "update_url": "https://github.com/Eric200000000/zotero-citationcounts/releases/latest/download/update.json",
+      "strict_min_version": "6.999",
+      "strict_max_version": "9.*"
+    }
+  }
+}
